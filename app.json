@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Tip calculator Simple",
+    "description": "Easiest way to calculate tips",
+    "slug": "tip-calculator-simple",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.curiositysoft.easytipcalculator",
+      "buildNumber": 3
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.curiositysoft.easytipcalculator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-8710571547862077~5240770736",
+    "ios_app_id": "ca-app-pub-8710571547862077~5627783542"
+  }
+}
